@@ -13,7 +13,17 @@ h1 {
   font-size: 50px;
   text-align: center;
   color: #FFFFFF;
-  padding: 70px 0px 15px 0px;
+  padding: 15% 0px 15px 0px;
+}
+a {
+  text-decoration: none;
+}
+h1 a {
+  color: #ff776d;
+}
+
+h1 a:hover {
+  text-decoration: underline;
 }
 
 h2 {
@@ -52,9 +62,6 @@ text-align: center;
     background-color: #252525;
     padding: 5px 8px 5px 8px ;
 
-}
-.red {
-  color: #ff776d;
 }
 p {
   float:left;
