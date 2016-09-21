@@ -1,0 +1,139 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-image: url("bg2.jpg");
+  font-family: helvetica;
+  background-position: center;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 70px 0px 15px 0px;
+}
+
+h2 {
+font-size: 35px;
+color: #FFFFFF;
+line-height: 80%;
+text-align: center;
+}
+
+#title-box {
+  color: #FFF;
+  float: left;
+  background: url("tip.png") no-repeat scroll 100% center #000000;
+  padding: 10px 20px 10px 10px;
+  font-size: 27px;
+  font-weight:  700;
+}
+
+#process {
+  width: 90%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.tip {
+  background-image: url("tip.png")
+}
+
+.content {
+  background-color: #FFF;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -4px;
+}
+.highlight {
+    background-color: #252525;
+    padding: 5px 8px 5px 8px ;
+
+}
+.red {
+  color: #ff776d;
+}
+p {
+  float:left;
+  padding: 15px;
+  font-size: 20px;
+}
+
+input:not([type=submit]) {
+	border: 2px solid #222222;
+	background: #FFFFFF;
+	color: #000000;
+	font: inherit;
+}
+
+input:focus {
+	border: 2px solid #DE0F00;
+	color: #222222;
+	background: #FFFFFF;
+	outline: none;
+}
+input:hover {
+	border: 2px solid #DE0F00;
+}
+
+input[type=submit] {
+	background: #FFFFFF;
+	border: 2px solid #222222;
+	cursor: pointer;
+	font: inherit;
+}
+input[type=submit]:hover,
+input[type=submit]:focus {
+	background: #DE0F00;
+	border: 2px solid #DE0F00;
+	color: #FFFFFF;
+}
+
+#waitinglist {
+  padding: 0px 0px 0px 0px;
+}
+
+#waitinglist h1 {
+	font: inherit;
+	margin-bottom: 0;
+}
+
+#waitinglist form {
+	margin: 1em 0;
+	max-width: 30em;
+	position: relative;
+}
+
+#waitinglist input:not([type=submit]) {
+	box-sizing: border-box;
+	display: block;
+	height: 2.5em;
+	padding: 0.15em 1em 0;
+	margin: 0 0 0.5em 0;
+	width: 73%;
+}
+
+#waitinglist input[type=submit] {
+	bottom: 0;
+	height: 5.5em;
+	padding: 0 0;
+	text-align: center;
+	right: 0;
+	width: 73%;
+}
+#first-title {
+  padding: 70px 0px 0px 15%;
+  display: inline-block;
+}
+
+@media (max-width: 768px) {
+	.content {
+		width: 90%;
+	}
+  #first-title {
+    padding: 70px 0px 0px 5%;
+  }
+}
