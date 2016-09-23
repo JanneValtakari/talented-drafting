@@ -100,33 +100,24 @@ input[type=submit]:focus {
 }
 
 #waitinglist {
-  padding: 0px 0px 0px 0px;
+  padding: 0px 0px 50px 0px;
+  margin: 5em auto;
 }
 
 #waitinglist h1 {
 	font: inherit;
-	margin-bottom: 0;
 }
 
-#waitinglist form {
-	margin: 1em 0;
-	max-width: 30em;
-	position: relative;
-}
 
 #waitinglist input:not([type=submit]) {
 	box-sizing: border-box;
 	display: block;
-	height: 2.5em;
-	padding: 0.15em 1em 0;
-	margin: 0 0 0.5em 0;
 	width: 73%;
 }
 
 #waitinglist input[type=submit] {
 	bottom: 0;
 	height: 5.5em;
-	padding: 0 0;
 	text-align: center;
 	right: 0;
 	width: 73%;
